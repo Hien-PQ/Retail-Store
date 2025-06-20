@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# If you are using a package manager that creates a lock file, you may want to keep
+# the lock file in version control, but ignore the node_modules directory.
+# Uncomment the following line if you want to ignore node_modules directories
+# in all subdirectories.
+# node_modules/
+client/node_modules
+server/node_modules
+.env
+.client/.env
+.server/.env
