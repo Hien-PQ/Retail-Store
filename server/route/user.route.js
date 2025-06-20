@@ -8,7 +8,7 @@ import {
     resetpassword,
     updateUserDetails,
     uploadAvatar,
-    userDetails,
+    // userDetails,
     verifyEmailController,
     verifyForgotPasswordOtp
 } from '../controllers/user.controller.js'
