@@ -71,7 +71,7 @@ const Login = () => {
     }
     return (
         <section className='w-full container mx-auto px-2'>
-            <div className='bg-white my-4 w-full max-w-lg mx-auto rounded p-7'>
+            <div className='bg-blue-200 my-4 w-full max-w-lg mx-auto rounded p-7'>
                 <h1 className='font-semibold text-lg'>Login to your account</h1>
                 <form className='grid gap-4 py-4' onSubmit={handleSubmit}>
                     <div className='grid gap-1'>
@@ -79,7 +79,7 @@ const Login = () => {
                         <input
                             type='email'
                             id='email'
-                            className='bg-blue-50 p-2 border rounded outline-none focus:border-primary-200'
+                            className='p-2 border rounded outline-none focus:border-primary-200'
                             name='email'
                             value={data.email}
                             onChange={handleChange}
@@ -88,11 +88,11 @@ const Login = () => {
                     </div>
                     <div className='grid gap-1'>
                         <label htmlFor='password'>Enter your password :</label>
-                        <div className='bg-blue-50 p-2 border rounded flex items-center focus-within:border-primary-200'>
+                        <div className='bg-white p-2 border rounded flex items-center focus-within:border-primary-200'>
                             <input
                                 type={showPassword ? "text" : "password"}
                                 id='password'
-                                className='w-full outline-none'
+                                className='w-full outline-none '
                                 name='password'
                                 value={data.password}
                                 onChange={handleChange}

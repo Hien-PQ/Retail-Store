@@ -73,7 +73,7 @@ const Register = () => {
     }
     return (
         <section className='w-full container mx-auto px-2'>
-            <div className='bg-white my-4 w-full max-w-lg mx-auto rounded p-7'>
+            <div className='bg-blue-200  my-4 w-full max-w-lg mx-auto rounded p-7'>
                 <p className='font-bold'>Welcome to HStore</p>
 
                 <form className='grid gap-4 mt-6' onSubmit={handleSubmit}>
@@ -83,7 +83,7 @@ const Register = () => {
                             type='text'
                             id='name'
                             autoFocus
-                            className='bg-blue-50 p-2 border rounded outline-none focus:border-primary-200'
+                            className='p-2 border rounded outline-none focus:border-primary-200'
                             name='name'
                             value={data.name}
                             onChange={handleChange}
@@ -95,7 +95,7 @@ const Register = () => {
                         <input
                             type='email'
                             id='email'
-                            className='bg-blue-50 p-2 border rounded outline-none focus:border-primary-200'
+                            className=' p-2 border rounded outline-none focus:border-primary-200'
                             name='email'
                             value={data.email}
                             onChange={handleChange}
@@ -104,7 +104,7 @@ const Register = () => {
                     </div>
                     <div className='grid gap-1'>
                         <label htmlFor='password'>Enter your password:</label>
-                        <div className='bg-blue-50 p-2 border rounded flex items-center focus-within:border-primary-200'>
+                        <div className='bg-white p-2 border rounded flex items-center focus-within:border-primary-200'>
                             <input
                                 type={showPassword ? "text" : "password"}
                                 id='password'
@@ -127,7 +127,7 @@ const Register = () => {
                     </div>
                     <div className='grid gap-1'>
                         <label htmlFor='confirmPassword'>Confirm your password:</label>
-                        <div className='bg-blue-50 p-2 border rounded flex items-center focus-within:border-primary-200'>
+                        <div className='bg-white p-2 border rounded flex items-center focus-within:border-primary-200'>
                             <input
                                 type={showConfirmPassword ? "text" : "password"}
                                 id='confirmPassword'
